@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.lanchuang.wgc.android_sqlitetest.MainActivity" >
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/insert"
+        android:text="@string/Button03" />
+
+    <Button
+        android:id="@+id/createD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/updateD"
+        android:layout_alignStart="@+id/updateD"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/Button01" />
+
+    <Button
+        android:id="@+id/updateD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/insert"
+        android:layout_alignStart="@+id/insert"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/createD"
+        android:text="@string/Button02" />
+
+    <Button
+        android:id="@+id/insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/update"
+        android:layout_alignStart="@+id/update"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/updateD"
+        android:text="@string/Button04" />
+
+    <Button
+        android:id="@+id/query"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/update"
+        android:layout_alignStart="@+id/update"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/update"
+        android:text="@string/Button05" />
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/query"
+        android:layout_alignStart="@+id/query"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/query"
+        android:text="@string/Button06" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/confirm"
+        android:layout_alignStart="@+id/confirm"
+        android:layout_alignRight="@+id/confirm"
+        android:layout_alignEnd="@+id/confirm"
+        android:layout_below="@+id/confirm"
+        android:text="@string/Button07" />
+
+</RelativeLayout>
